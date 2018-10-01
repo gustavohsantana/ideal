@@ -93,7 +93,7 @@ function handleMessage(sender_psid, received_message) {
 	
 	promo = getRandomResponse();
 	
-	if(received_message.text.localeCompare("Roupas") == 0)
+	if(received_message.text.localeCompare("Roupassss") == 0)
 		promo = getListResponse()[3];
 	if(received_message.text.localeCompare("Restaurantes") == 0)
 		promo = getListResponse()[2];
